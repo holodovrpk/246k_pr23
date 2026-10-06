@@ -27,7 +27,7 @@ namespace _246k_pr23
 
         private void Reg_Click(object sender, RoutedEventArgs e)
         {
-
+            
             MessageBox.Show($"Зарегистрирован: \n{person.Name}\n{person.Email}\n{person.Age} лет");
         }
     }
