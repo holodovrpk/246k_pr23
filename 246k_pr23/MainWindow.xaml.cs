@@ -22,11 +22,12 @@ namespace _246k_pr23
         {
             InitializeComponent();
 
-            DataContext = person;
+            this.DataContext = person;
         }
 
         private void Reg_Click(object sender, RoutedEventArgs e)
         {
+
             MessageBox.Show($"Зарегистрирован: \n{person.Name}\n{person.Email}\n{person.Age} лет");
         }
     }
